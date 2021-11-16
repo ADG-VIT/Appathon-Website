@@ -51,21 +51,6 @@ a {
 }
 
 
-/* .expandable {
-    background: #000;
-    overflow: hidden;
-    color: #000;
-    line-height: 50px;
-
-    transition: all .3s ease-in-out;
-    height: 0;
-}
-
-.expandable:target {
-    height: 100%;
-    padding-bottom: 1em;
-} */
-
 
 .expandable {
     background: #000;
