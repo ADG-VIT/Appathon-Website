@@ -2,6 +2,8 @@ body {
   margin: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
 /* Navbar */
 
 #navbar {
@@ -19,6 +21,8 @@ body {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 61.46%, #000000 100%),
     linear-gradient(0deg, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.52)),
     url("../images/animation.svg");
+
+  z-index: 10;
 }
 
 .main {
@@ -44,7 +48,16 @@ body {
 
 .heading .h1 {
   height: 110px;
-  font-family: TerminaW05-Bold;
+  font-family: -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Open Sans',
+    'Helvetica Neue',
+    sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 90px;
@@ -56,7 +69,16 @@ body {
 }
 
 .heading .h2 {
-  font-family: AXIS;
+  font-family: -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Open Sans',
+    'Helvetica Neue',
+    sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 30px;
@@ -68,7 +90,16 @@ body {
 }
 
 .date .h1 {
-  font-family: TerminaW05-Bold;
+  font-family: -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Open Sans',
+    'Helvetica Neue',
+    sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
@@ -81,7 +112,16 @@ body {
 }
 
 .date .h2 {
-  font-family: AXIS;
+  font-family: -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Open Sans',
+    'Helvetica Neue',
+    sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -100,7 +140,16 @@ body {
   border-radius: 70px;
   width: 250px;
   height: 65px;
-  font-family: SF Pro Display;
+  font-family: -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Open Sans',
+    'Helvetica Neue',
+    sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 19.6438px;
@@ -119,7 +168,16 @@ body {
 
 .deadline .h1 {
   margin-top: 10px;
-  font-family: Neue Haas Grotesk Display Pro;
+  font-family: -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Open Sans',
+    'Helvetica Neue',
+    sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -134,7 +192,16 @@ body {
 }
 
 .deadline .h2 {
-  font-family: Monument Extended;
+  font-family: -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Open Sans',
+    'Helvetica Neue',
+    sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 138px;
@@ -192,7 +259,16 @@ body {
 
 .info_heading .h1 {
   height: 110px;
-  font-family: TerminaW05-Bold;
+  font-family: -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Open Sans',
+    'Helvetica Neue',
+    sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 70px;
@@ -204,7 +280,16 @@ body {
 }
 
 .info_heading .h2 {
-  font-family: MADE Soulmaze;
+  font-family: -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Open Sans',
+    'Helvetica Neue',
+    sans-serif;
   font-style: italic;
   font-weight: normal;
   font-size: 22.1655px;
@@ -215,7 +300,16 @@ body {
 }
 
 .info_para .h3 {
-  font-family: Neue Haas Grotesk Display Pro;
+  font-family: -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Open Sans',
+    'Helvetica Neue',
+    sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -228,7 +322,7 @@ body {
 }
 
 .info_div_one .h3 {
-  font-family: Neue Haas Grotesk Display Pro;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -241,7 +335,7 @@ body {
 }
 
 .info_div_one .h4 {
-  font-family: Neue Haas Grotesk Display Pro;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -254,7 +348,7 @@ body {
 }
 
 .info_div .h3 {
-  font-family: Neue Haas Grotesk Display Pro;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -268,7 +362,7 @@ body {
 }
 
 .info_div .h4 {
-  font-family: Neue Haas Grotesk Display Pro;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
@@ -319,7 +413,7 @@ body {
 /* Headings Tracks Page */
 
 .tracks_heading .h1 {
-  font-family: TerminaW05-Bold;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 48px;
@@ -333,7 +427,7 @@ body {
 }
 
 .tracks .h1 {
-  font-family: TerminaW05-Bold;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 48px;
@@ -347,7 +441,16 @@ body {
 }
 
 .tracks_info .h3 {
-  font-family: Lato;
+  font-family: -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Open Sans',
+    'Helvetica Neue',
+    sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -391,10 +494,11 @@ body {
   width: 713px;
   height: 315px;
 }
+
 /* Headings TimLine Page */
 
 .timeline_heading .h1 {
-  font-family: TerminaW05-Bold;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 48px;
@@ -408,7 +512,7 @@ body {
 }
 
 .timeline .h1 {
-  font-family: TerminaW05-Bold;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -453,6 +557,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
 .partner_img {
   width: 118px;
   margin-bottom: 60px;
@@ -464,7 +569,7 @@ body {
 /* Headings Partner Page */
 
 .partner_heading .h1 {
-  font-family: TerminaW05-Bold;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 48px;
@@ -478,7 +583,16 @@ body {
 }
 
 .partner_sub_heading .h2 {
-  font-family: MADE Soulmaze;
+  font-family: -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Open Sans',
+    'Helvetica Neue',
+    sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -489,7 +603,16 @@ body {
 }
 
 .partner_sub_heading .selected {
-  font-family: MADE Soulmaze;
+  font-family: -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Open Sans',
+    'Helvetica Neue',
+    sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -507,15 +630,17 @@ body {
   height: 100vh;
   background: #000000;
 }
+
 .faq_main {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
 }
+
 /* Headings FAQ Page */
 .faq_heading .h1 {
-  font-family: TerminaW05-Bold;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 48px;
@@ -590,7 +715,7 @@ body {
 
 /* Headings Footer */
 .footer_up .h4 {
-  font-family: Poppins;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
@@ -601,7 +726,7 @@ body {
 }
 
 .links p {
-  font-family: Poppins;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -623,7 +748,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: Poppins;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
