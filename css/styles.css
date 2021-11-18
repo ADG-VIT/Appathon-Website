@@ -245,7 +245,10 @@ body {
   width: 1117px;
   height: 129px;
   border-radius: 10px;
-  background: url(../images/info_custom.svg);
+  background: url(../assets/bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .info_div {
