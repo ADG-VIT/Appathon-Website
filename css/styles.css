@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700;900&display=swap');
 
 /* Navbar */
 
@@ -21,11 +21,6 @@ body {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 61.46%, #000000 100%),
     linear-gradient(0deg, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.52)),
     url("../images/animation.svg");
-<<<<<<< HEAD
-  background: url(../images/final\ render.mp4);
-  z-index: 10;
-=======
->>>>>>> 54a9bd7a09b5b5c223744c6e2fa2c79ddf967581
 }
 
 .main {
@@ -482,6 +477,13 @@ body {
   text-decoration: underline;
 }
 
+.speak-spon {
+  font-family: 'Raleway',
+    sans-serif;
+}
+
+
+
 /* FAQ Page */
 
 .faq_page {
@@ -683,6 +685,7 @@ body {
   .date .h2 {
     font-size: 2.9vw;
   }
+
   .deadline {
     margin-top: 100px;
   }
@@ -725,6 +728,7 @@ body {
   .info_div_one {
     width: 16vw;
   }
+
   .info_div_three {
     width: 26.5vw;
   }
@@ -762,6 +766,7 @@ body {
   .date .h2 {
     font-size: 2.9vw;
   }
+
   .deadline {
     margin-top: 100px;
   }
@@ -804,6 +809,7 @@ body {
   .info_div_one {
     width: 16vw;
   }
+
   .info_div_three {
     width: 26.5vw;
   }
@@ -867,6 +873,7 @@ body {
   .date .h2 {
     font-size: 2.9vw;
   }
+
   .deadline .h1 {
     font-size: 2.8vw;
   }
@@ -905,9 +912,11 @@ body {
   .info_div_one {
     width: 13vw;
   }
+
   .info_div_two {
     width: 55vw;
   }
+
   .info_div_three {
     width: 22.5vw;
   }
