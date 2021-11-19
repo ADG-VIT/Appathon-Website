@@ -69,7 +69,7 @@
   </head>
 
   <body>
-    <section class="landing_page">
+    <section class="landing_page" id="landing_page">
       <nav class="navbar navbar-dark" id="navbar">
         <div class="container-fluid">
           <a class="navbar-brand"><img src="./images/adg_logo.svg" alt="" /></a>
@@ -102,7 +102,7 @@
             />
           </button>
           <p class="h1">Deadline For Registering: 25th November,2021</p>
-          <p class="h2">02:12:20:30</p>
+          <p class="h2 timer"></p>
         </div>
       </div>
     </section>
@@ -295,7 +295,7 @@
         <div class="footer_up">
           <div class="div_one">
             <a href="https://adgvit.com/"
-              ><img src="./images/adg_logo2.svg" alt=""
+              ><img class="footer_adg" src="./images/adg_logo2.svg" alt=""
             /></a>
           </div>
           <div class="div_two">
@@ -339,9 +339,15 @@
           </div>
         </div>
         <div class="footer_down">
-          <div class="line"></div>
-          <div class="line-up">
-            <img src="./assets/up.svg" />
+          <div class="footer_para_up">
+            <div class="line"></div>
+            <div class="line-up">
+              <a href="#landing_page">
+                <button class="footer_button">
+                  <img class="footer_button_img" src="./assets/up.svg" />
+                </button>
+              </a>
+            </div>
           </div>
           <div class="footer_para">
             <p>Developed by ADG | © 2021 All rights reserved.</p>
