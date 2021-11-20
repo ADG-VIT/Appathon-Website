@@ -1,0 +1,240 @@
+body {
+  /* background-color: #c50e0e; */
+  /* margin: 0px auto;
+  padding: 0px; */
+  /* font-family: helvetica; */
+  height: 100vh;
+}
+
+#main_content {
+  text-align: left;
+  font-size: 35px;
+  margin: 0 !important;
+  /* margin-top: 60px; */
+  color: #ffffff;
+  background-color: #000000;
+}
+#main_content h1 p {
+  text-align: center;
+  margin: 0px;
+  font-size: 18px;
+  text-decoration: underline;
+
+  color: rgb(221, 29, 29);
+}
+
+#main_content li {
+  display: inline;
+  list-style-type: none;
+  /* background-color: #000000; */
+  padding: 10px;
+  /* border-radius: 5px 5px 0px 0px; */
+  color: #faf5f8;
+  font-weight: bold;
+  cursor: pointer;
+}
+#main_content li.notselected {
+  background-color: #000000;
+  color: #808080;
+}
+#main_content li.selected {
+  background-color: #000000;
+  color: #ffffff;
+  text-decoration: underline;
+}
+#main_content .hidden_desc {
+  display: none;
+  visibility: hidden;
+}
+#main_content #page_content {
+  background-color: #000000;
+  padding: 10px;
+  padding-top: 9px;
+  border-radius: 0px 5px 5px 5px;
+  color: #ffffff;
+  /* line-height: 1.6em; */
+  /* word-spacing:4px; */
+}
+.box-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  /* */
+}
+
+.box-container .box {
+  flex: 1 1 10px;
+
+  /* margin:1.5rem; */
+  /* padding:1rem; */
+  background: rgb(10, 10, 10);
+
+  box-shadow: 0 0.5rem 1rem rgba(155, 31, 31, 0.1);
+  border-radius: 2rem;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+.box:hover .image {
+  opacity: 0.3;
+}
+
+.box:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4e5352;
+  color: white;
+  font-size: 20px;
+  padding: 16px 32px;
+}
+.s_container {
+  height: 100vh;
+  font-weight: bolder;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  min-height: 60vh;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10vh;
+}
+
+.card {
+  height: 353px;
+  width: 353px;
+  background-color: black;
+  overflow: hidden;
+  /* border-radius: 1.5rem; */
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  /* position: relative; */
+  border-radius: 5% !important;
+}
+
+.overlay {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+.overlay .fa-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #fff;
+}
+
+.overlay img {
+  object-fit: cover;
+  transition: all 2s;
+  height: 100%;
+  width: 100%;
+}
+
+.d-none {
+  display: none;
+}
+
+.top-div {
+  position: relative;
+  /* padding: 20px; */
+  font-size: 17px;
+  color: #fff;
+  z-index: 1;
+}
+
+.top-div i:nth-child(1) {
+  position: absolute;
+  transition: all 0.5s;
+  left: -40px;
+}
+
+.top-div i:nth-child(2) {
+  position: absolute;
+  top: 19px;
+  right: -40px;
+  transition: all 0.5s;
+}
+
+.card:hover i:nth-child(1) {
+  top: 20px;
+  left: 20px;
+}
+
+.card:hover i:nth-child(2) {
+  right: 20px;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* height: 180px; */
+  width: 100%;
+  border-radius: 100%;
+}
+
+.image span {
+  /* height: 90px;
+    width: 90px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #ccc;
+  border-radius: 10px solid #fff;
+  z-index: 1;
+}
+
+.image span img {
+  width: 100%;
+  height: 100%;
+  /* border-radius: 10px; */
+  object-fit: cover;
+}
+.image h3 {
+  /* margin-top: 5px; */
+  font-weight: 900;
+  font-size: 18px;
+  z-index: 100;
+  color: #fff;
+}
+
+.image h4 {
+  margin-top: -3px;
+  font-size: 13px;
+  z-index: 100;
+  color: #fff;
+}
+.text_2 {
+  border-left: 4px solid rgb(255, 255, 255);
+  height: 50px;
+  position: absolute;
+  z-index: 100;
+  margin-top: 290px;
+  padding: 0;
+  font-size: 18px;
+  margin-right: 160px;
+  
+}
+.text_2 p {
+  margin-left: 10px;
+  background-color:rgba(255,255,255,0.2);
+ 
+}
