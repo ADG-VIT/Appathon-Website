@@ -27,9 +27,8 @@ a:link {
   height: 100vh;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 61.46%, #000000 100%),
     linear-gradient(0deg, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.52)),
-    url("../images/final_render.mp4");
-  /* background: url(../images/final_render.mp4);
-  z-index: 10; */
+    url("../images/animation.svg");
+  background: url(../images/final_render.mp4);
 }
 
 .main {
