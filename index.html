@@ -28,17 +28,27 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
 
+  <script>
+    function change_tab(id) {
+      document.getElementById("page_content").innerHTML = document.getElementById(id + "_desc").innerHTML;
+      document.getElementById("page1").className = "notselected";
+      document.getElementById("page2").className = "notselected";
+
+      document.getElementById(id).className = "selected";
+    }
+  </script>
+</head>
+
 <body>
   <section class="landing_page" id="landing_page">
-    <nav class="navbar navbar-dark" id="navbar">
-      <div class="container-fluid">
-        <a class="navbar-brand"><img src="./images/adg_logo.svg" alt="" /></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-          data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
-          aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </div>
+    <div class="container-fluid">
+      <a class="navbar-brand"><img src="./images/adg_logo.svg" alt="" /></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
     </nav>
     <div class="main">
       <div class="heading">
@@ -94,14 +104,26 @@
   </section>
 
   <section class="tracks_page">
+
     <div class="tracks_main">
       <div class="tracks_heading">
         <p class="h1">TRACKS</p>
       </div>
+
+
+      <div>
+        <img src="./assets/grid.png" alt="no img" id="grid1">
+        <img src="./assets/coming.png" alt="no img" id="comming">
+      </div>
+
+
       <div class="tracks">
-        <p class="h1">ED-TECH</p>
+
+
+        <!--         <p class="h1">ED-TECH</p>
+ -->
         <div class="tracks_info">
-          <p class="h3">
+          <!--   <p class="h3">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s, when an unknown printer took a galley of
@@ -111,10 +133,14 @@
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the
-          </p>
+          </p> -->
         </div>
       </div>
+
+
     </div>
+
+
   </section>
 
   <section class="timeline_page">
@@ -259,53 +285,244 @@
   </section>
 
   <section class="partner_page">
-    <div class="partner_main">
-      <div class="partner_heading">
-        <p class="h1">PARTNERS</p>
-        <div class="partner_sub_heading">
-          <p class="h2 speak-spon"">SPEAKERS</p>
-          <p class=" h2 selected speak-spon">SPONSERS</p>
+    <div id="main_content" style="font-family: 'Josefin Sans', sans-serif;">
+      <h1 class="head" style="background-color: black;">Partners</h1>
+      <div style="background-color: black;">
+        <li class="selected" id="page1" onclick="change_tab(this.id); ">SPEAKERS</li>
+        <li class="notselected" id="page2" onclick="change_tab(this.id);">SPONSORS</li>
+      </div>
+
+      <!-- <li class="notselected" id="page3" onclick="change_tab(this.id);">Page3</li> -->
+
+      <div class="hidden_desc" id="page1_desc">
+
+        <div class="row ">
+          <div class="col-lg-4 col-md-6 container">
+            <div class="card">
+              <div class="overlay d-none"> <small class="fa fa-close"></small><img src="./speaker.jpg">
+              </div>
+
+              <div class="image"> <span><img id="userimage" src="./speaker.jpg">
+                  <div class="text_2"><strong>
+                      <p style="margin-bottom: 0; font-weight: bolder;">Riddhi Gupta</p>
+                    </strong>
+                    <p style="margin-top: 0;">iOS Lead Swiggy</p>
+                  </div>
+              </div>
+
+
+
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 container">
+            <div class="card">
+              <div class="overlay d-none"> <small class="fa fa-close"></small><img src="./speaker.jpg">
+              </div>
+
+              <div class="image"> <span><img id="userimage" src="./speaker.jpg"></span>
+                <div class="text_2"><strong>
+                    <p style="margin-bottom: 0; font-weight: bolder;">Riddhi Gupta</p>
+                  </strong>
+                  <p style="margin-top: 0;">iOS Lead Swiggy</p>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 container">
+            <div class="card">
+              <div class="overlay d-none">><img src="./speaker.jpg">
+              </div>
+
+              <div class="image"> <img id="userimage" src="./speaker.jpg">
+                <div class="text_2"><strong>
+                    <p style="margin-bottom: 0; font-weight: bolder;">Riddhi Gupta</p>
+                  </strong>
+                  <p style="margin-top: 0;">iOS Lead Swiggy</p>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 container">
+            <div class="card">
+              <div class="overlay d-none"> <small class="fa fa-close"></small><img src="./speaker.jpg">
+              </div>
+              <div class="image"> <span><img id="userimage" src="./speaker.jpg"></span>
+                <div class="text_2"><strong>
+                    <p style="margin-bottom: 0; font-weight: bolder;">Riddhi Gupta</p>
+                  </strong>
+                  <p style="margin-top: 0;">iOS Lead Swiggy</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 container">
+            <div class="card">
+              <div class="overlay d-none"> <small class="fa fa-close"></small><img src="./speaker.jpg">
+              </div>
+              <div class="top-div"> <i class="fa fa-bars"></i> <i class="fa fa-envelope-o"></i> </div>
+              <div class="image"> <span><img id="userimage" src="./speaker.jpg"></span>
+                <div class="text_2"><strong>
+                    <p style="margin-bottom: 0; font-weight: bolder;">Riddhi Gupta</p>
+                  </strong>
+                  <p style="margin-top: 0;">iOS Lead Swiggy</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 container">
+            <div class="card">
+              <div class="overlay d-none"> <small class="fa fa-close"></small><img src="./speaker.jpg">
+              </div>
+              <div class="top-div"> <i class="fa fa-bars"></i> <i class="fa fa-envelope-o"></i> </div>
+              <div class="image"> <span><img id="userimage" src="./speaker.jpg"></span>
+                <div class="text_2"><strong>
+                    <p style="margin-bottom: 0; font-weight: bolder;">Riddhi Gupta</p>
+                  </strong>
+                  <p style="margin-top: 0;">iOS Lead Swiggy</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="partner">
-        <div class="partner_img">
-          <img src="./images/snapchat.svg" alt="" />
-        </div>
-        <div class="partner_img">
-          <img src="./images/snapchat.svg" alt="" />
-        </div>
-        <div class="partner_img">
-          <img src="./images/snapchat.svg" alt="" />
-        </div>
-        <div class="partner_img">
-          <img src="./images/snapchat.svg" alt="" />
-        </div>
-        <div class="partner_img">
-          <img src="./images/snapchat.svg" alt="" />
-        </div>
-        <div class="partner_img">
-          <img src="./images/snapchat.svg" alt="" />
-        </div>
-        <div class="partner_img">
-          <img src="./images/snapchat.svg" alt="" />
-        </div>
-        <div class="partner_img">
-          <img src="./images/snapchat.svg" alt="" />
-        </div>
-        <div class="partner_img">
-          <img src="./images/snapchat.svg" alt="" />
-        </div>
-        <div class="partner_img">
-          <img src="./images/snapchat.svg" alt="" />
-        </div>
-        <div class="partner_img">
-          <img src="./images/snapchat.svg" alt="" />
-        </div>
-        <div class="partner_img">
-          <img src="./images/snapchat.svg" alt="" />
+
+      <div class='hidden_desc' id="page2_desc">
+        <div class="s_container" style="text-align: center; align-items: center; padding-top: 1vh;">
+          <div class="row" style="margin-top: 10px;">
+            <div class="col"><img src="./Page-1.png" alt=""></div>
+            <div class="col"><img src="./geeksmate 2.png" alt=""></div>
+            <div class="col"><img src="./yourstory 2.png" alt=""></div>
+            <div class="col"><img src="./ib31m8db10zbju0eunh9 3.png" alt=""></div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col"><img src="./Frame.png" alt=""></div>
+            <div class="col"><img src="./Group.png" alt=""></div>
+            <div class="col"><img src="./geeksmate 1.png" alt=""></div>
+            <div class="col"><img src="./pngegg (1) 3.png" alt=""></div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col"><img src="./Frame-1.png" alt=""></div>
+            <div class="col"><img src="./pngegg (2) 2.png" alt=""></div>
+            <div class="col"><img src="./ib31m8db10zbju0eunh9 2.png" alt=""></div>
+            <div class="col"><img src="./pngegg (1) 4.png" alt=""></div>
+          </div>
         </div>
       </div>
-    </div>
+
+
+
+      <div id="page_content">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 container">
+            <div class="card">
+              <div class="overlay d-none"> <small class="fa fa-close"></small><img src="./speaker.jpg">
+              </div>
+              <div class="top-div"> <i class="fa fa-bars"></i> <i class="fa fa-envelope-o"></i> </div>
+              <div class="image"> <span><img id="userimage" src="./speaker.jpg"></span>
+                <div class="text_2"><strong>
+                    <p style="margin-bottom: 0; font-weight: bolder;">Riddhi Gupta</p>
+                  </strong>
+                  <p style="margin-top: 0;">iOS Lead Swiggy</p>
+                </div>
+
+              </div>
+
+
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 container">
+            <div class="card">
+              <div class="overlay d-none"> <small class="fa fa-close"></small><img src="./speaker.jpg">
+              </div>
+
+              <div class="image"> <img id="userimage" src="./speaker.jpg">
+                <div class="text_2"><strong>
+                    <p style="margin-bottom: 0; font-weight: bolder;">Riddhi Gupta</p>
+                  </strong>
+                  <p style="margin-top: 0;">iOS Lead Swiggy</p>
+                </div>
+
+              </div>
+
+
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 container">
+            <div class="card">
+              <div class="overlay d-none"> <small class="fa fa-close"></small><img src="./speaker.jpg">
+              </div>
+
+              <div class="image"> <span><img id="userimage" src="./speaker.jpg"></span>
+                <div class="text_2"><strong>
+                    <p style="margin-bottom: 0; font-weight: bolder;">Riddhi Gupta</p>
+                  </strong>
+                  <p style="margin-top: 0;">iOS Lead Swiggy</p>
+                </div>
+
+              </div>
+
+
+
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 container">
+            <div class="card">
+              <div class="overlay d-none"> <small class="fa fa-close"></small><img src="./speaker.jpg">
+              </div>
+
+              <div class="image"><img id="userimage" src="./speaker.jpg">
+                <div class="text_2"><strong>
+                    <p style="margin-bottom: 0; font-weight: bolder;">Riddhi Gupta</p>
+                  </strong>
+                  <p style="margin-top: 0;">iOS Lead Swiggy</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 container">
+            <div class="card">
+              <div class="overlay d-none"><img src="./speaker.jpg"> </div>
+              <div class="top-div"> <i class="fa fa-bars"></i> <i class="fa fa-envelope-o"></i> </div>
+              <div class="image"> <span><img id="userimage" src="./speaker.jpg"></span>
+                <div class="text_2"><strong>
+                    <p style="margin-bottom: 0; font-weight: bolder;">Riddhi Gupta</p>
+                  </strong>
+                  <p style="margin-top: 0;">iOS Lead Swiggy</p>
+                </div>
+
+              </div>
+
+
+
+
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 container">
+            <div class="card">
+              <div class="overlay d-none"> <img src="./speaker.jpg"> </div>
+
+              <div class="image"> <span><img id="userimage" src="./speaker.jpg"></span>
+                <div class="text_2"><strong>
+                    <p style="margin-bottom: 0; font-weight: bolder;">Riddhi Gupta</p>
+                  </strong>
+                  <p style="margin-top: 0;">iOS Lead Swiggy</p>
+                </div>
+
+              </div>
+
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+
   </section>
 
   <section class="faq_page">
@@ -425,6 +642,7 @@
     </div>
   </section>
   <script src="./index.js" async defer></script>
+
 </body>
 
 </html>
