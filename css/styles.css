@@ -949,6 +949,8 @@ svg {
   line-height: 1.5;
   padding-top: 1em;
   color: #ffffff;
+  background: #0C0C0C;
+
 }
 
 @media screen and (max-width: 600px) {
@@ -1644,7 +1646,7 @@ svg {
   }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 900px) {
   #grid1 {
     height: 0;
     width: 0;
