@@ -6,6 +6,7 @@ body {
   margin: 0;
   background: #000000 !important;
   overflow-x: hidden;
+
 }
 
 a:link {
@@ -33,6 +34,7 @@ a:link {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 61.46%, #000000 100%),
     linear-gradient(0deg, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.52)),
     url("../images/animation.svg");
+  background-repeat: no-repeat;
   /*   background: url("../images/final_render.mp4");
  */
 }
