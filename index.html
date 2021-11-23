@@ -23,17 +23,17 @@
     content="ADG is a student club at VIT Vellore with members who are passionate for iOS Development and other technical domains to develop their dream project." />
   <!-- SEO -->
 
-  <link rel="stylesheet" href="./css/styles.css" />
   <!-- BootStrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="./css/styles.css" />
 
   <script>
     function change_tab(id) {
       document.getElementById("page_content").innerHTML = document.getElementById(id + "_desc").innerHTML;
       document.getElementById("page1").className = "notselected";
       document.getElementById("page2").className = "notselected";
-
       document.getElementById(id).className = "selected";
     }
   </script>
@@ -146,355 +146,57 @@
   </section>
 
   <section class="timeline_page">
-    <div class="timeline_main">
-      <div class="timeline_heading">
-        <p class="h1">TIMELINE</p>
-      </div>
+    <div class="timeline_heading">
+      <p class="h1">TIMELINE</p>
+    </div>
 
-      <!--  <div>
-          <p class="h1">DAY-1</p>
-          <p class="h1">24 NOV 2021</p>
-        </div> -->
-      <div class="timeline_info">
-        <div class="item">
-          <div id="timeline">
-            <div>
-
-
-              <section class="year">
-                <h3 class="time-date">DAY 1 <br>26th Nov 2021
-                  <br>
-                </h3>
-
-                <section>
-
-                  <ul>
-                    <li>7:30 PM Opening Ceremony & Track Reveal</li>
-                  </ul>
-                </section>
-                <section>
-                  <ul>
-                    <li>11:30 PM Review 1
-                    </li>
-                  </ul>
-                </section>
-              </section>
-
-
-              <section class="year">
-                <h3 class="time-date">Day 2 <br>27th Nov 2021
-                  <br></h3>
-                <section>
-                  <ul>
-                    <li>10:30 AM Git Session</li>
-                  </ul>
-                </section>
-                <section>
-                  <ul>
-                    <li>2:00 PM Review 2</li>
-                  </ul>
-                </section>
-                <section>
-                  <ul>
-                    <li>5:00 PM How to Start an App/Start up</li>
-                  </ul>
-                </section>
-                <section>
-                  <ul>
-                    <li>8:00PM - 9:00 PM Special Event Details Coming Soon</li>
-                  </ul>
-                </section>
-
-                <section>
-                  <ul>
-                    <li>11:00 PM Special Event Details Coming Soon</li>
-                  </ul>
-                </section>
-
-              </section>
-              <section class="year">
-                <h3 class="time-date">Day 3 <br>28th Nov 2021
-                  <br></h3>
-                <section>
-                  <ul>
-                    <li>8:00 AM Forms Out for Final Submission</li>
-                  </ul>
-                </section>
-                <section>
-                  <ul>
-                    <li>10:30 AM Forms closed</li>
-                  </ul>
-                </section>
-                <section>
-                  <ul>
-                    <li>11:30 PM Review 3</li>
-                  </ul>
-                </section>
-                <section>
-                  <ul>
-                    <li>2:00 PM Networking with Judges</li>
-                  </ul>
-                </section>
-                <section>
-                  <ul>
-                    <li>4:00 PM Closing ceremony + Results</li>
-                  </ul>
-                </section>
-              </section>
-
-            </div>
+    <div class="timeline-items">
+      <div class="timeline-item">
+          <div class="heading">
+              <div class="day">day 1</div>
+              <div class="date">26th Nov 2021</div>
           </div>
-        </div>
+
+          <ul>
+              <li>7:30 PM Opening Ceremony & Track Reveal</li>
+              <li>11:30 PM Review 1</li>
+          </ul>
       </div>
-    </div>
-    </div>
+
+      <div class="timeline-item">
+          <div class="heading">
+              <div class="day">day 2</div>
+              <div class="date">27th Nov 2021</div>
+          </div>
+
+          <ul>
+              <li>10:30 AM Git Session</li>
+              <li>2:00 PM Review 2</li>
+              <li>5:00 PM How to Start an App/Start up</li>
+              <li>8:00PM - 9:00 PM Special Event Details Coming Soon</li>
+              <li>11:00 PM Special Event Details Coming Soon</li>
+          </ul>
+      </div>
+
+      <div class="timeline-item">
+          <div class="heading">
+              <div class="day">day 3</div>
+              <div class="date">28th Nov 2021</div>
+          </div>
+
+          <ul>
+              <li>8:00 AM Forms Out for Final Submission</li>
+              <li>10:30 AM Forms closed</li>
+              <li>10:30 AM Forms closed</li>
+              <li>2:00 PM Networking with Judges</li>
+              <li>4:00 PM Closing ceremony + Results</li>
+          </ul>
+      </div>
+  </div>
   </section>
 
-  <section class="partner_page">
+  <!-- <section class="partner_page">
     <div id="part">PARTNERS</div>
-    <!--  <div id="main_content" style="font-family: 'Josefin Sans', sans-serif;">
-
-
-
-      <div style="background-color: black;">
-        <li class="selected" id="page1" onclick="change_tab(this.id); ">SPEAKERS</li>
-        <li class="notselected" id="page2" onclick="change_tab(this.id);">SPONSORS</li>
-      </div>
-
-    
-
-    <div class="hidden_desc" id="page1_desc">
-
-      <div class="row ">
-        <div class="col-lg-4 col-md-6 container">
-          <div class="card">
-            <div class="overlay d-none"> <small class="fa fa-close"></small><img src="./assets/speaker.jpg">
-            </div>
-
-            <div class="image"> <span><img id="userimage" src="./assets/speaker.jpg">
-                <div class="text_2"><strong>
-                    <p style="margin-bottom: 0; font-weight: bolder;">Riddhi Gupta</p>
-                  </strong>
-                  <p style="margin-top: 0;">iOS Lead Swiggy</p>
-                </div>
-            </div>
-
-
-
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 container">
-          <div class="card">
-            <div class="overlay d-none"> <small class="fa fa-close"></small><img src="./assets/speaker.jpg">
-            </div>
-
-            <div class="image"> <span><img id="userimage" src="./assets/speaker.jpg"></span>
-              <div class="text_2"><strong>
-                  <p style="margin-bottom: 0; font-weight: bolder;">Riddhi Gupta</p>
-                </strong>
-                <p style="margin-top: 0;">iOS Lead Swiggy</p>
-              </div>
-            </div>
-
-
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 container">
-          <div class="card">
-            <div class="overlay d-none">><img src="./assets/speaker.jpg">
-            </div>
-
-            <div class="image"> <img id="userimage" src="./assets/speaker.jpg">
-              <div class="text_2"><strong>
-                  <p style="margin-bottom: 0; font-weight: bolder;">Riddhi Gupta</p>
-                </strong>
-                <p style="margin-top: 0;">iOS Lead Swiggy</p>
-              </div>
-            </div>
-
-
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 container">
-          <div class="card">
-            <div class="overlay d-none"> <small class="fa fa-close"></small><img src="./assets/speaker.jpg">
-            </div>
-            <div class="image"> <span><img id="userimage" src="./assets/speaker.jpg"></span>
-              <div class="text_2"><strong>
-                  <p style="margin-bottom: 0; font-weight: bolder;">Riddhi Gupta</p>
-                </strong>
-                <p style="margin-top: 0;">iOS Lead Swiggy</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 container">
-          <div class="card">
-            <div class="overlay d-none"> <small class="fa fa-close"></small><img src="./assets/speaker.jpg">
-            </div>
-            <div class="top-div"> <i class="fa fa-bars"></i> <i class="fa fa-envelope-o"></i> </div>
-            <div class="image"> <span><img id="userimage" src="./assets/speaker.jpg"></span>
-              <div class="text_2"><strong>
-                  <p style="margin-bottom: 0; font-weight: bolder;">Riddhi Gupta</p>
-                </strong>
-                <p style="margin-top: 0;">iOS Lead Swiggy</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 container">
-          <div class="card">
-            <div class="overlay d-none"> <small class="fa fa-close"></small><img src="./assets/speaker.jpg">
-            </div>
-            <div class="top-div"> <i class="fa fa-bars"></i> <i class="fa fa-envelope-o"></i> </div>
-            <div class="image"> <span><img id="userimage" src="./assets/speaker.jpg"></span>
-              <div class="text_2"><strong>
-                  <p style="margin-bottom: 0; font-weight: bolder;">Riddhi Gupta</p>
-                </strong>
-                <p style="margin-top: 0;">iOS Lead Swiggy</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class='hidden_desc' id="page2_desc">
-      <div class="s_container" style="text-align: center; align-items: center; padding-top: 1vh;">
-        <div class="row" style="margin-top: 10px;">
-          <div class="col"><img src="./Page-1.png" alt=""></div>
-          <div class="col"><img src="./geeksmate 2.png" alt=""></div>
-          <div class="col"><img src="./yourstory 2.png" alt=""></div>
-          <div class="col"><img src="./ib31m8db10zbju0eunh9 3.png" alt=""></div>
-        </div>
-        <br>
-        <div class="row">
-          <div class="col"><img src="./assets/Frame.png" alt=""></div>
-          <div class="col"><img src="./assets/Group.png" alt=""></div>
-          <div class="col"><img src="./assets/geeksmate 1.png" alt=""></div>
-          <div class="col"><img src="./assets/pngegg (1) 3.png" alt=""></div>
-        </div>
-        <br>
-        <div class="row">
-          <div class="col"><img src="./assets/Frame-1.png" alt=""></div>
-          <div class="col"><img src="./assets/pngegg (2) 2.png" alt=""></div>
-          <div class="col"><img src="./assets/ib31m8db10zbju0eunh9 2.png" alt=""></div>
-          <div class="col"><img src="./assets/pngegg (1) 4.png" alt=""></div>
-        </div>
-      </div>
-    </div>
-
-    </div> -->
-
-
-
-    <!-- 
-    <div id="page_content">
-      <div class="row">
-        <div class="col-lg-4 col-md-6 container">
-          <div class="card">
-            <div class="overlay d-none"> <small class="fa fa-close"></small><img src="./assets/speaker.jpg">
-            </div>
-
-            <div class="image"> <img id="userimage" src="./assets/speaker.jpg">
-              <div class="text_2"><strong>
-                  <p style="margin-bottom: 0; font-weight: bolder;">Riddhi Gupta</p>
-                </strong>
-                <p style="margin-top: 0;">iOS Lead Swiggy</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 container">
-          <div class="card">
-            <div class="overlay d-none"> <small class="fa fa-close"></small><img src="./assets/speaker.jpg">
-            </div>
-
-            <div class="image"> <img id="userimage" src="./assets/speaker.jpg">
-              <div class="text_2"><strong>
-                  <p style="margin-bottom: 0; font-weight: bolder;">Riddhi Gupta</p>
-                </strong>
-                <p style="margin-top: 0;">iOS Lead Swiggy</p>
-              </div>
-
-            </div>
-
-
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 container">
-          <div class="card">
-            <div class="overlay d-none"> <small class="fa fa-close"></small><img src="./assets/speaker.jpg">
-            </div>
-
-            <div class="image"> <img id="userimage" src="./assets/speaker.jpg">
-              <div class="text_2"><strong>
-                  <p style="margin-bottom: 0; font-weight: bolder;">Riddhi Gupta</p>
-                </strong>
-                <p style="margin-top: 0;">iOS Lead Swiggy</p>
-              </div>
-
-            </div>
-
-
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 container">
-          <div class="card">
-            <div class="overlay d-none"> <small class="fa fa-close"></small><img src="./assets/speaker.jpg">
-            </div>
-
-            <div class="image"> <img id="userimage" src="./assets/speaker.jpg">
-              <div class="text_2"><strong>
-                  <p style="margin-bottom: 0; font-weight: bolder;">Riddhi Gupta</p>
-                </strong>
-                <p style="margin-top: 0;">iOS Lead Swiggy</p>
-              </div>
-
-            </div>
-
-
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 container">
-          <div class="card">
-            <div class="overlay d-none"> <small class="fa fa-close"></small><img src="./assets/speaker.jpg">
-            </div>
-
-            <div class="image"> <img id="userimage" src="./assets/speaker.jpg">
-              <div class="text_2"><strong>
-                  <p style="margin-bottom: 0; font-weight: bolder;">Riddhi Gupta</p>
-                </strong>
-                <p style="margin-top: 0;">iOS Lead Swiggy</p>
-              </div>
-
-            </div>
-
-
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 container">
-          <div class="card">
-            <div class="overlay d-none"> <small class="fa fa-close"></small><img src="./assets/speaker.jpg">
-            </div>
-
-            <div class="image"> <img id="userimage" src="./assets/speaker.jpg">
-              <div class="text_2"><strong>
-                  <p style="margin-bottom: 0; font-weight: bolder;">Riddhi Gupta</p>
-                </strong>
-                <p style="margin-top: 0;">iOS Lead Swiggy</p>
-              </div>
-
-            </div>
-
-
-          </div>
-        </div>
-      </div>
-    </div>
- -->
-
-
     <div class="part-2">
 
       <img src="./assets/coming.png" alt="no img" id="coming2">
@@ -504,9 +206,9 @@
     </div>
 
 
-  </section>
+  </section> -->
 
-  <section class="faq_page">
+  <!-- <section class="faq_page">
     <div id="faq">FAQ</div>
     <div id="content">
       <div class="box">
@@ -636,7 +338,7 @@
 
 
 
-  </section>
+  </section> -->
 
   <section class="footer">
     <div class="footer_main">
