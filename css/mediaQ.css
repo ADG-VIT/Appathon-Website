@@ -602,7 +602,7 @@
         position: absolute;
         top: 0.5rem;
         bottom: 0rem;
-        left: 5.25em;
+        left: 6em;
         z-index: 1;
         background: #89049b;
     }
@@ -618,7 +618,7 @@
         -ms-border-radius: 50%;
         border-radius: 50%;
         position: absolute;
-        left: 5.05em;
+        left: 5.85em;
         top: 55px;
         z-index: 2;
 
