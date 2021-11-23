@@ -35,8 +35,8 @@ a:link {
     linear-gradient(0deg, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.52)),
     url("../images/animation.svg");
   background-repeat: no-repeat;
-  /*   background: url("../images/final_render.mp4");
- */
+  background: url("../images/Blender_Final_Render-1.mp4");
+
 }
 
 .main {

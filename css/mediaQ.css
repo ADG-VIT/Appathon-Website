@@ -445,7 +445,24 @@
     }
 
     .ques {
-        font-size: 4em;
+        font-size: 18px;
+    }
+
+    .icons {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 150px;
+
+    }
+
+
+
+    .icons img {
+        height: 24px;
+        width: 24px;
+        margin-bottom: 15px;
+
     }
 }
 
@@ -478,7 +495,7 @@
     }
 
     .info_page {
-        margin-top: 30px;
+        margin-top: 125px;
     }
 
     .info_para .h3 {
@@ -575,6 +592,10 @@
     }
 
 
+    .tracks_page {
+        margin-top: 100px;
+    }
+
     #timeline div:after {
         content: "";
         width: 2px;
@@ -604,7 +625,7 @@
     }
 
     .partner_page {
-        margin-top: 0;
+        margin-top: 5em;
         padding-top: 0;
     }
 
@@ -618,11 +639,7 @@
 
     /* Footer */
 
-    .icons img {
-        margin-bottom: 15px;
-        width: 35px;
-        height: 35px;
-    }
+
 
     .div_three {
         width: 24vw;
